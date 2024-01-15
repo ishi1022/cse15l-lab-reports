@@ -1,4 +1,4 @@
-![image](https://github.com/ishi1022/cse15l-lab-reports/blob/main/Screen%20Shot%202024-01-14%20at%208.26.25%20PM.png?raw=true)
+![Image](https://github.com/ishi1022/cse15l-lab-reports/blob/main/Screen%20Shot%202024-01-14%20at%208.26.25%20PM.png?raw=true)
 cd
 1. No Arguments
 - The current working directory for the cd command with no arguments is lecture1
@@ -13,7 +13,7 @@ cd
 - When running the cd command with a file (hindi.txt) as an argument it does not work as it is trying to change the current directory to a file which is not allowed with this command.
 - This prodcues the Not a directory error becasue this command cannot accept files as arguments
 
-![image](https://github.com/ishi1022/cse15l-lab-reports/blob/main/Screen%20Shot%202024-01-15%20at%2012.32.28%20PM.png?raw=true)
+![Image](https://github.com/ishi1022/cse15l-lab-reports/blob/main/Screen%20Shot%202024-01-15%20at%2012.32.28%20PM.png?raw=true)
 ls
 1. No arguments
 - The current working direcotry is the home directory
@@ -28,7 +28,7 @@ ls
 - When running the ls command on a file it tries to list the contents of the file but that is not allowed
 - This command produces an error "No such file or directory" as in the home directory that file is not present and the ls command cannot list the contents of a file
 
-![image](https://github.com/ishi1022/cse15l-lab-reports/blob/main/Screen%20Shot%202024-01-15%20at%2012.33.55%20PM.png?raw=true)
+![Image](https://github.com/ishi1022/cse15l-lab-reports/blob/main/Screen%20Shot%202024-01-15%20at%2012.33.55%20PM.png?raw=true)
 cat
 1. No Arguments
 - The current working direcotry is lecture1
