@@ -1,5 +1,5 @@
 ![Image](https://github.com/ishi1022/cse15l-lab-reports/blob/main/Screen%20Shot%202024-01-14%20at%208.26.25%20PM.png?raw=true)
-cd
+**cd**
 1. No Arguments
 - The current working directory for the cd command with no arguments is lecture1
 - When running the cd command with no arguments the directory changes from the working directory (lecture1) to the home diretory
@@ -14,7 +14,7 @@ cd
 - This prodcues the Not a directory error becasue this command cannot accept files as arguments
 
 ![Image](https://github.com/ishi1022/cse15l-lab-reports/blob/main/Screen%20Shot%202024-01-15%20at%2012.32.28%20PM.png?raw=true)
-ls
+**ls**
 1. No arguments
 - The current working direcotry is the home directory
 - When running the ls command it lists all the contents of the home directory which are two directories: "lecture1" and "directory2"
@@ -29,7 +29,7 @@ ls
 - This command produces an error "No such file or directory" as in the home directory that file is not present and the ls command cannot list the contents of a file
 
 ![Image](https://github.com/ishi1022/cse15l-lab-reports/blob/main/Screen%20Shot%202024-01-15%20at%2012.33.55%20PM.png?raw=true)
-cat
+**cat**
 1. No Arguments
 - The current working direcotry is lecture1
 - When running this command with no arguments it tries to concatenate the contents but there is nothing to concatenate
@@ -39,6 +39,7 @@ cat
 - When running this command with a directory as an argument it tries to concatenate the contents of the directory but that is not allowed
 - The error is "Is a directory" which is the output because this command requires a file to concatenate
 3. File as argument
+  (I used cd to go into the messages directory to show the cat command work for a file)
 - The current working direcotry is the messages direcotry which is inside the lecture1 directory
 - When running this command with a file as an argument we can see the contents of the "hindi.txt" file
 - There is no error, the output is the contents of the hindi.txt file
