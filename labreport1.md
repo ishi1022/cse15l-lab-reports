@@ -3,11 +3,11 @@
 1. No Arguments
 - The current working directory for the cd command with no arguments is lecture1
 - When running the cd command with no arguments the directory changes from the working directory (lecture1) to the home diretory
-- There is no error with this command, the directory is successfully changed
+- There is no error with this command, the directory is successfully changed as we can see in the command line it removes the lecture1
 2. Directory as argument
 - The current working directory is the home directory
 - When running the cd command with directory2 as an argument it changes the directory from home to directory2
-- There is no error, the directory is successfully changed
+- There is no error, the directory is successfully changed as we can see in the command line
 3. File as argument
 - The current working directory is the directory2
 - When running the cd command with a file (hindi.txt) as an argument it does not work as it is trying to change the current directory to a file which is not allowed with this command.
