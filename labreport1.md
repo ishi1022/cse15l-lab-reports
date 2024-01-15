@@ -1,4 +1,4 @@
-<img width="555" alt="Screen Shot 2024-01-14 at 8 37 22 PM" src="https://github.com/ishi1022/cse15l-lab-reports/assets/156254581/536e9d90-f23c-44fe-a0d0-eb353ee90d4b">
+![image](https://github.com/ishi1022/cse15l-lab-reports/blob/main/Screen%20Shot%202024-01-14%20at%208.26.25%20PM.png?raw=true)
 cd
 1. No Arguments
 - The current working directory for the cd command with no arguments is lecture1
@@ -14,6 +14,8 @@ cd
 - This prodcues the Not a directory error becasue this command cannot accept files as arguments
 
 <img width="672" alt="Screen Shot 2024-01-14 at 8 56 01 PM" src="https://github.com/ishi1022/cse15l-lab-reports/assets/156254581/b4ba5bf3-5210-4396-8883-3e67d5889e84">
+ls
+1. No arguments
 - The current working direcotry is the home directory
 - When running the ls command it lists all the contents of the home directory which are two directories: "lecture1" and "directory2"
 - The output is not an error as the command listed everything in the diretory which is correct
