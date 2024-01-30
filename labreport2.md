@@ -33,3 +33,5 @@ class ChatServer {
 
 ```
 ![Image](https://github.com/ishi1022/cse15l-lab-reports/blob/main/addMessage1.png?raw=true)
+
+![Image](https://github.com/ishi1022/cse15l-lab-reports/blob/main/addMessage2.png?raw=true)
