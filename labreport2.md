@@ -58,6 +58,7 @@ class ChatServer {
 ***ieng6 login without password***
 
 **PART3**
+
 Something new I have learned this week that i didnt know before is how to start a web server. I also learned about the URI class and how to read a url. I learned how to read and manipulate queries using code. 
 
 
