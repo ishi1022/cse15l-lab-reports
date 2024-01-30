@@ -43,3 +43,6 @@ class ChatServer {
 ***/addMessage 2***
 
 ![Image](https://github.com/ishi1022/cse15l-lab-reports/blob/main/addMessage2.png?raw=true)
+- The handleRequest method in the ChatHandler class is called again (ChatHandler.handleRequest(URI url)). It handles the new incoming request again.
+- The **argument** for this method is a **"url"** which is a URI object that represents the request(same as before but for the new url). This argument url is /add-message?s=Hi!&user=isdesai for this image. A relevant **field** is **"chatHistory"** which is a string and before this method call is "jpolitz: Hello\n". 
+-  The chatHistory field in the Chathandler class changes from "jpolitz: Hello\n" to "jpolitz: Hello\nisdesai: Hi!\n" as the method finds the user which is "isdesai" and message which is "Hi!" from the new url and appends it to the existing string.
