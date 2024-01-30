@@ -1,7 +1,7 @@
 # cse15l-lab-report
 ## Lab Report 2
 
-*ChatServer.Java*
+***ChatServer.Java***
 
 ```
 import java.io.IOException;
@@ -33,11 +33,13 @@ class ChatServer {
 }
 
 ```
-*/addMessage 1*
+***/addMessage 1***
 
 ![Image](https://github.com/ishi1022/cse15l-lab-reports/blob/main/addMessage1.png?raw=true)
 - The handleRequest method in the ChatHandler class is called (ChatHandler.handleRequest(URI url)). It handles the incoming request.
 - The **argument** for this method is a **"url"** which is a URI object that represents the request. This argument url is /add-message?s=Hello&user=jpolitz for this image. A relevant **field** is **"chatHistory"** which is an originally an empty string "". 
 -  The chatHistory field in the Chathandler class changes from an empty string to "jpolitz: Hello\n" as the method finds the user which is "jpolitz" and message which is "Hello" from the url and appends it to the string.
-/addMessage 2
+  
+***/addMessage 2***
+
 ![Image](https://github.com/ishi1022/cse15l-lab-reports/blob/main/addMessage2.png?raw=true)
