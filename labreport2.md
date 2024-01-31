@@ -51,11 +51,17 @@ class ChatServer {
 ## PART2
 
 ***The absolute path to the private key***
+
 ![Image](https://github.com/ishi1022/cse15l-lab-reports/blob/main/Private%20Key%20Abs%20Path.png?raw=true)
+
 ***The absolute path to the public key***
+
 ![Image](https://github.com/ishi1022/cse15l-lab-reports/blob/main/Public%20Key%20abs%20Path.png?raw=true)
+
 ***ieng6 login without password***
+
 ![Image](https://github.com/ishi1022/cse15l-lab-reports/blob/main/ieng6Login(w:oPass).png?raw=true)
+
 
 ## PART3
 
