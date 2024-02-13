@@ -56,7 +56,7 @@ class ChatServer {
 
 ***The absolute path to the public key***
 
-![Image](https://github.com/ishi1022/cse15l-lab-reports/blob/main/Public%20Key%20abs%20Path.png?raw=true)
+![Image](https://github.com/ishi1022/cse15l-lab-reports/blob/main/Screen%20Shot%202024-02-13%20at%202.35.30%20PM.png?raw=true)
 
 ***ieng6 login without password***
 
