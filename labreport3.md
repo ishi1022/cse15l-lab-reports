@@ -1,5 +1,6 @@
 # Lab Report 3
 
+## Failure inducing input
 ```
 @Test 
 	public void testReverseInPlace() {
@@ -8,3 +9,5 @@
     assertArrayEquals(new int[]{ 3,2,1 }, input1);
 	}
 ```
+## Symptom
+![Image]()
