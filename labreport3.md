@@ -178,4 +178,4 @@ ishifishi@Ishvaris-MBP OANC-GrAF % find /Users/ishifishi/Downloads/OANC-GrAF/dat
 ishifishi@Ishvaris-MBP OANC-GrAF % find /Users/ishifishi/Downloads/OANC-GrAF/data/written_1/fiction/eggan -type f -size +10000
 /Users/ishifishi/Downloads/OANC-GrAF/data/written_1/fiction/eggan/TheStory-hepple.xml
 ```
-**I used this website to find the command line options https://snapshooter.com/learn/linux/find it provided me with details on each command line arguemtent and how to use each.**
+**I used this website to find the command line options Link [https://snapshooter.com/learn/linux/find] it provided me with details on each command line arguemtent and how to use each.**
