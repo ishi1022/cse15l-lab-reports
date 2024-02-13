@@ -58,13 +58,13 @@ This fix makes sure that it only goes till the midpoint of the array and swaps t
 - (ex) ```find /path/to/search -type f -size +1M``` ,allows you to search for files based on their size. 
 
 ## Commands on ```./technical``` file
-1. ```-o``` this searches for the files in the fiction/eggan directory that have either a .txt file extension or a .anc file extension. This is useful when wanting to find files that match one of many criterias.
+1. ```-o``` this searches for the files in the fiction/eggan directory that have either a ```.txt`` file extension or a ```.anc``` file extension. This is useful when wanting to find files that match one of many criterias.
 ```
 ishifishi@Ishvaris-MacBook-Pro eggan % find /Users/ishifishi/Downloads/OANC-GrAF/data/written_1/fiction/eggan -name "*.txt" -o -name "*.anc"
 /Users/ishifishi/Downloads/OANC-GrAF/data/written_1/fiction/eggan/TheStory.txt
 /Users/ishifishi/Downloads/OANC-GrAF/data/written_1/fiction/eggan/TheStory.anc
 ```
-```!``` this Not operator seaches for files in this directory that dont have the .txt file extension. This is useful when wanting to fin dall files other than certain ones. 
+```!``` this Not operator seaches for files in this directory that dont have the ```.txt``` file extension. This is useful when wanting to find all files other than certain ones. 
 ```
 ishifishi@Ishvaris-MBP OANC-GrAF % find /Users/ishifishi/Downloads/OANC-GrAF/data/written_1/fiction/eggan ! -name "*.txt" 
 /Users/ishifishi/Downloads/OANC-GrAF/data/written_1/fiction/eggan
@@ -164,7 +164,7 @@ ishifishi@Ishvaris-MBP OANC-GrAF % find /Users/ishifishi/Downloads/OANC-GrAF/dat
 /Users/ishifishi/Downloads/OANC-GrAF/data/spoken/telephone/switchboard/22
 /Users/ishifishi/Downloads/OANC-GrAF/data/spoken/telephone/switchboard/2
 ```
-4.```-size``` the +1000 seachea for files wihtin the directory that are larger than 1000 bytes. It is useful when you want to find files that are not exceeding a sertain size. The +10000 searches for files larger then 10000 bytes. You can also use this function with a - ign to find files smaller than a certain size. 
+4.```-size``` the +1000 searches for files wihtin the directory that are larger than 1000 bytes. It is useful when you want to find files that are not exceeding a sertain size. The +10000 searches for files larger then 10000 bytes. You can also use this function with a - sign to find files smaller than a certain size. 
 ```
 ishifishi@Ishvaris-MBP OANC-GrAF % find /Users/ishifishi/Downloads/OANC-GrAF/data/written_1/fiction/eggan -type f -size +1000
 /Users/ishifishi/Downloads/OANC-GrAF/data/written_1/fiction/eggan/TheStory-s.xml
